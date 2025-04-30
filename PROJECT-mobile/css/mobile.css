@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.wrap {
+  width: 96%;
+  margin: 0 auto;
+}
+body {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+}
+main {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  top: 0px;
+  left: 0;
+}
+.logoa {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 9;
+  margin-bottom: 0px;
+  background: rgba(15, 15, 15, 0.616);
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 15%;
+  padding-top: 2%;
+  margin: auto;
+}
+.logo img {
+  max-width: 100%;
+  margin-left: -25px;
+}
+
+/*지금은 필요없는데 햄버거사이드메뉴적용할때 사용하려고 헤더 남겨둠*/
+header {
+  background: rgba(15, 15, 15, 0.616);
+  z-index: 999;
+}
+/**/
+
+.ct1 {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.c1 {
+  width: 48%;
+  margin-top: 10%;
+}
+/*예약*/
+.c1e {
+  width: 100%;
+  height: 100px;
+  padding-top: 10%;
+  background: rgb(43, 43, 43);
+  margin-top: 15%;
+}
+
+.select {
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(170, 170, 170);
+  margin-bottom: 5%;
+}
+.hotel {
+  font-size: 0.88rem;
+  text-align: center;
+  font-weight: bold;
+}
+.check {
+  font-size: 0.88rem;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 3px;
+}
+.reservation {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: bold;
+}
+.reservation a {
+  color: white;
+}
+.ct1 span {
+  font-size: 0.5rem;
+}
+
+.title {
+  text-align: center;
+  padding-top: 30%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.title2 {
+  text-align: center;
+  padding-top: 30%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.title3 {
+  text-align: center;
+  padding-top: 30%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.title4 {
+  text-align: center;
+  padding-top: 30%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.title5 {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.ct2 {
+  display: flex;
+  justify-content: center;
+}
+.c2l {
+  width: 96%;
+  margin: 10% auto;
+}
+.c2l img {
+  width: 100%;
+}
+.ct2 p {
+  font-size: 0.63rem;
+  padding-top: 5%;
+  font-weight: lighter;
+}
+
+.ct3 {
+  display: flex;
+  justify-content: center;
+}
+.c3r {
+  width: 96%;
+  margin: 10% auto;
+}
+.c3r img {
+  width: 100%;
+}
+.ct3 p {
+  font-size: 0.63rem;
+  padding-top: 5%;
+  font-weight: lighter;
+}
+
+.ct4 {
+  display: flex;
+  justify-content: center;
+}
+.c4c {
+  width: 96%;
+  margin: 10% auto;
+}
+.c4c img {
+  width: 100%;
+  height: 120%;
+}
+
+video {
+  width: 96%;
+  margin: 10% auto;
+  object-fit: fill;
+}
+
+.ct6 {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10% auto;
+}
+.c6 {
+  width: 24%;
+}
+.ct6 p {
+  font-size: 0.63rem;
+  color: dimgray;
+  margin: 10% auto;
+}
+.c6 img {
+  width: 70%;
+}
+
+.hover-effect:hover {
+  transition: transform 0.3s ease; /* 부드럽게 */
+  filter: brightness(1.1);
+  transition: 0.3s;
+}
+
+.hover-effect3:hover {
+  filter: brightness(1.1);
+  transition: 0.5s;
+}
+
+.footer1 {
+  width: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.f1 {
+  padding: 5%;
+}
+.f1 p {
+  font-weight: bold;
+  font-size: 0.88rem;
+}
+.f1 a {
+  color: white;
+}
+footer {
+  width: 100%;
+  background: lightgray;
+  color: dimgray;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 10%;
+}
+
+/*슬라이더 관련 스타일 추가한것*/
+/*추가한 부분*/
+/*추가한 부분*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
