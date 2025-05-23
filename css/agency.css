@@ -72,7 +72,7 @@ a:hover {
 /*디자인 포트폴리오 배경*/
 
 .bg-light-gray {
-    background-color: #ffe8d0
+    background-color: #F2F6F9
 }
 
 .bg-darkest-gray {
@@ -503,9 +503,9 @@ section h4 {
         padding-top: 90px;
 
     }
-
+/*푸터*/
     section#contact {
-        background-color: #222222;
+        background-color: #2E3A59;
         background-image: url('../img/map-image.png');
         background-position: center;
         background-repeat: no-repeat;
