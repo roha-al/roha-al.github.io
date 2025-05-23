@@ -69,8 +69,10 @@ a:hover {
     margin: 0 auto
 }
 
+/*디자인 포트폴리오 배경*/
+
 .bg-light-gray {
-    background-color: #eee
+    background-color: #ffe8d0
 }
 
 .bg-darkest-gray {
