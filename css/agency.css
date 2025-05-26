@@ -489,6 +489,16 @@ section h4 {
     z-index: 2;
 }
 
+/*내가 추가한 부분 시작*/
+
+      .footer2
+    {
+    color: white;
+    background: rgba(0, 0, 0, 0.904);
+    }
+
+/*내가 추가한 부분 끝*/
+
 @media (min-width: 767px) {
     #portfolio .portfolio-item {
         margin: 0 auto;
@@ -581,7 +591,17 @@ section h4 {
         font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         text-transform: none;
+        
     }
+
+    /*내가 추가한 부분 시작*/
+      .footer2
+    {
+    color: white;
+    background: rgba(0, 0, 0, 0.904);
+    }
+
+    /*내가 추가한 부분 끝*/
 
     footer ul.quicklinks {
         margin-bottom: 0;
@@ -731,3 +751,4 @@ section h4 {
     body {
         webkit-tap-highlight-color: #fed136;
     }
+    
