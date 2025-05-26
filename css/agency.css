@@ -493,13 +493,24 @@ section h4 {
 
       .footer2
     {
-    color: white;
-    background: rgba(0, 0, 0, 0.904);
+    color: black;
+    background: white;
     }
 
 /*내가 추가한 부분 끝*/
 
 @media (min-width: 767px) {
+
+    /*내가 추가한 부분 시작*/
+      .footer2
+    {
+    color: black;
+    background: white;
+    }
+
+    /*내가 추가한 부분 끝*/
+
+
     #portfolio .portfolio-item {
         margin: 0 auto;
     }
@@ -593,15 +604,6 @@ section h4 {
         text-transform: none;
         
     }
-
-    /*내가 추가한 부분 시작*/
-      .footer2
-    {
-    color: white;
-    background: rgba(0, 0, 0, 0.904);
-    }
-
-    /*내가 추가한 부분 끝*/
 
     footer ul.quicklinks {
         margin-bottom: 0;
