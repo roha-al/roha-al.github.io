@@ -20,6 +20,17 @@
       type="text/css"
     />
     <link href="css/agency.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+
     <style>
       #mobileMockup {
         position: absolute;
@@ -80,10 +91,12 @@
         display: flex;
         justify-content: space-between;
       }
+
     </style>
   </head>
 
   <body id="page-top">
+
     <!-- #endregion Slider End -->
     <!-- Navigation -->
     <nav
@@ -143,7 +156,6 @@
           >
             디자이너 금로하입니다.
           </div>
-          <a href="#services" class="page-scroll btn btn-xl"></a>
         </div>
       </div>
     </header>
@@ -358,49 +370,67 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Contact</h2>
-            <div
-              style="
-                width: 400px;
-                height: 90px;
-                background-color: #eee;
-                padding-top: 15px;
-                clear: both;
-                font-family: '맑은 고딕';
-                font-weight: bolder;
-                color: #2e2e2e;
-                font-size: 20px;
-                border: 1px solid transparent;
-                border-radius: 4px;
-                position: absolute;
-                top: 50%;
-                left: 43%;
-                margin-top: 30px;
-                margin-right: 0;
-                margin-left: -114px;
-                margin-bottom: 0;
-              "
-            >
-              <span
-                class="glyphicon glyphicon-envelope"
-                aria-hidden="true"
-              ></span>
-              rmarha123@naver.com
-              <br>
-              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-              010-8779-1717
+     <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+        <div class="row s-contact__header">
+            <div class="column large-12">
+                <h3 class="section-header-allcaps"> <span class="white">Say Hello</span></h3>
             </div>
+        </div>
+        <div class="row s-contact__content">
+            <div class="column large-7 medium-12">
+                <h4 class="huge-text">
+                    저에 대해 더 궁금한게 있으신가요? <br> 언제든지 연락주세요 :)
+                </h4>
+            </div>
+            <div class="column large-4 medium-12">
+
+                <div class="row contact-infos">
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Email
+                            </h5>
+                            <p class="contact-block__content">
+                                <a class="mailtoui" href="mailto:rmarha123@naver.com">rmarha123@naver.com</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Phone
+                            </h5>
+                            <p class="contact-block__content">
+                                <a href="tel:+11115555">010 8779 1717</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+                </div> <!-- end contact-infos -->
+            </div>
+        </div> <!-- s-contact__content -->
+    </section> <!-- end s-contact -->
+
+    <footer class="s-footer">
+        <div class="row">
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                          </div>
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span> </span>
+                <span>thank you for watching </span>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z" />
+                </svg>
+            </a>
+        </div> <!-- end ss-go-top -->
+    </footer>
 
-    <footer>
+    <footer class="footer2">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -1085,6 +1115,8 @@
         </div>
       </div>
     </div>
+
+
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -1128,5 +1160,13 @@
         iframe.src = ""; // 끌 때 iframe 초기화 (선택사항)
       }
     </script>
+
+
+ <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
   </body>
 </html>
