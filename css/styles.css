@@ -2433,6 +2433,7 @@ label > input[type="radio"] {
  * # buttons 
  *
  * ------------------------------------------------------------------- */
+ /*모바일 메뉴*/
 .btn,
 button,
 input[type="submit"],
@@ -3102,12 +3103,13 @@ button.btn--pill {
   top: 2rem;
 }
 
+/*say hello 글자*/
 .section-header-allcaps {
   display: inline-block;
-  font-size: var(--text-size);
+  font-size: var(--text-xs);
   line-height: var(--vspace-1_25);
   text-transform: uppercase;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.5em;
   padding-left: 0.25em;
   padding-bottom: 0.1em;
   margin-top: 0;
@@ -4643,11 +4645,12 @@ button.btn--pill {
   margin-bottom: var(--vspace-2_5);
 }
 
+/*언제든지 연락주세요*/
 .s-contact .huge-text {
   color: white;
   margin-top: 0;
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.304;
 }
 
@@ -4662,9 +4665,10 @@ button.btn--pill {
   margin-top: var(--vspace-0_75);
 }
 
+/*휴대폰, 이메일*/
 .contact-block {
-  font-size: 2.8rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 100;
   line-height: 1.286;
 }
 
@@ -4680,7 +4684,7 @@ button.btn--pill {
 .contact-block__header {
   font-size: 2.2rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.37);
   margin-top: 0;
   margin-bottom: 0.2rem;
 }
@@ -4723,7 +4727,7 @@ button.btn--pill {
   }
 
   .contact-block {
-    font-size: 2.6rem;
+    font-size: 1.5rem;
   }
 
   .contact-block__header {
@@ -4737,7 +4741,7 @@ button.btn--pill {
   }
 
   .contact-block {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
 
   .contact-block__header {
